@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
   # GET /books
   # GET /books.json
-  before_filter :authenticate_user!
+  #before_filter :authenticate_user!
   def index
     @books = Book.all
 
