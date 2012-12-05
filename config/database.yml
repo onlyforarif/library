@@ -27,11 +27,12 @@ test:
   host: localhost
 
 production:
-  adapter: jdbcmysql
+  adapter: mysql
   encoding: utf8
   reconnect: false
-  database: librarysystem_production
+  database: librarysystem
   pool: 5
   username: root
-  password:
+  password: root
+  host: localhost
 
