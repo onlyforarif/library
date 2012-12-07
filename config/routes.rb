@@ -1,4 +1,6 @@
 Librarysystem::Application.routes.draw do
+  resources :guests
+
   devise_for :users
 
   resources :books
