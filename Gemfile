@@ -22,7 +22,9 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'less-rails'
 gem 'therubyracer'
-
+gem 'hominid'
+gem 'gibbon'
+gem 'constant-contact-ruby'
 
 group :production do
  gem 'pg'
