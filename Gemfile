@@ -26,7 +26,9 @@ gem 'less-rails'
 gem 'therubyracer'
 gem 'hominid'
 gem 'constant-contact-ruby'
-
+gem 'salesforce_bulk'
+gem 'rforce'
+gem 'zohax'
 group :production do
  gem 'pg'
 end
